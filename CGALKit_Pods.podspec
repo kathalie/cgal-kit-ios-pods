@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/**/*.{h,cpp,hpp,swift}"
+  spec.source_files  = "CGALKit_Pods/Sources/**/*.{h,cpp,hpp,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -152,7 +152,7 @@ Pod::Spec.new do |spec|
   # spec.module_map = 'Sources/CGALKit/module.modulemap'
   # spec.dependency "JSONKit", "~> 1.4"
 
-  spec.public_header_files = "Sources/CGALKit/CGALKit.h", "Sources/CGALKit/CxxConvexHull.hpp"
+  spec.public_header_files = "CGALKit_Pods/Sources/CGALKit/CGALKit.h", "CGALKit_Pods/Sources/CGALKit/CxxConvexHull.hpp"
   # spec.project_header_files = "Sources/CGALKit/CxxConvexHull/CxxConvexHull.hpp"
 
 end
