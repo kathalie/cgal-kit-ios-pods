@@ -1,0 +1,14 @@
+//
+//  module.modulemap
+//  CGALKit
+//
+//  Created by Kathryn Verkhogliad on 18.11.2024.
+//
+
+framework module CGALKit {
+    umbrella header "CGALKit.h"
+    export *
+    module * {
+        export *
+    }
+}
