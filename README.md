@@ -12,6 +12,14 @@
 
 ### Cocoapods
 
+You want to add pod `CGALKit_Pods', '~> 0.0` similar to the following to your Podfile:
+```
+target 'MyApp' do
+  pod 'CGALKit_Pods', '~> 0.0'
+end
+```
+Then run a pod install inside your terminal, or from CocoaPods.app.
+More details: https://cocoapods.org/pods/CGALKit_Pods
 
 ## Usage
 
